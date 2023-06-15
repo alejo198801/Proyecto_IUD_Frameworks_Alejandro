@@ -13,7 +13,7 @@ class EstudianteController extends Controller
     
     public function index()
     {
-        $estudiantes = Estudiante::select('estudiantes.id', 'estudiantes.nombre','email','phone','curso_id','cursos.name as curso')
+        $estudiantes = Estudiante::select('estudiantes.id', 'estudiantes.name','email','phone','curso_id','cursos.name as curso')
         ->join('cursos','cursos.id','=','estudiantes.curso_id')
         ->paginate(10);
 
