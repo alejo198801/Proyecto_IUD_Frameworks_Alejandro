@@ -111,7 +111,7 @@ const deleteEstudiante = (id, name) => {
                             <th class="px-2 py-2">Nombre</th>
                             <th class="px-2 py-2">Email</th>
                             <th class="px-2 py-2">Teléfono</th>
-                            <th class="px-2 py-2">Departamento</th>                            
+                            <th class="px-2 py-2">Curso</th>                            
                             <th class="px-2 py-2"></th>
                             <th class="px-2 py-2"></th>
                         </tr>
